@@ -1,8 +1,16 @@
 Netflix GPT
 -> Create React App
 -> Configured TailwindCSS
+-> Routing an app
 -> Header
--> Logib form
+-> Login form
+-> Form Validation
+-> useRef hook
+-> Firebase Setup
+-> Deploying our app to production
+-> Create SignUp User Account
+-> Implement SignIN in User API
+-> Created Redux Store with UserSlice
 
 Features
 -> Login/Sign up
