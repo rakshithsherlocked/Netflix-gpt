@@ -22,11 +22,11 @@ const Login = () => {
   const handleButtonClick =()=>{
 
    //console.log(name.current.value)
-   console.log(email.current.value);
-   console.log(password.current.value);
+   //console.log(email.current.value);
+   //console.log(password.current.value);
 
    const message = checkValidate(email.current?.value, password.current?.value)
-   console.log(message);
+   //console.log(message);
    setErrorMessage(message)
    if(message) return;
 
@@ -60,7 +60,7 @@ const Login = () => {
     }).catch((error) => {
       setErrorMessage(errorMessage);
     });
-    console.log(user);
+    //console.log(user);
     navigate("/browse")
     // ...
   })
