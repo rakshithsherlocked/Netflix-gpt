@@ -26,6 +26,9 @@ Netflix GPT
 -> Fetch data for Trailer video
 -> Update store with Trailer Video Data
 -> Embedded the Youtube video and make it autoplay and mute
+-> Build Movie List and Movie Card
+-> TMDB Image CDN URL
+-> Using custom hooks for the movie lists accrodingly
 
 
 
