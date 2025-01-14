@@ -7,6 +7,7 @@ import { auth } from '../utils/firebase';
 import { useNavigate } from 'react-router-dom';
 import { addUser } from '../utils/userSlice';
 import { useDispatch } from 'react-redux';
+import { BG_URL } from '../utils/constant';
 
 
 const Login = () => {
@@ -82,7 +83,7 @@ const Login = () => {
         <div className='absolute'> 
             <img
             alt='bg-img'
-            src='https://assets.nflxext.com/ffe/siteui/vlv3/03ad76d1-e184-4d99-ae7d-708672fa1ac2/web/DE-de-20241111-TRIFECTA-perspective_aeb21217-08e4-4431-9112-c7cc550aec5c_large.jpg'
+            src={BG_URL}
              />
         </div>
         <form onSubmit={(e)=> e.preventDefault()} className='w-3/12 absolute p-10 bg-black my-44 mx-auto right-0 left-0 text-white bg-opacity-80'>

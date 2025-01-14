@@ -29,7 +29,9 @@ Netflix GPT
 -> Build Movie List and Movie Card
 -> TMDB Image CDN URL
 -> Using custom hooks for the movie lists accrodingly
-
+-> GPT search feature
+-> GPT search page and search bar
+-> Multi-Language Feature in our app
 
 
 
