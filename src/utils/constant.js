@@ -8,7 +8,7 @@ export const API_OPTION = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MTZmOTllYjY3YzVmYTg3ZmUxOWM2NWM1ODQ3Yzg5YiIsIm5iZiI6MTczNDI3MTM5NC41ODksInN1YiI6IjY3NWVlMWEyNTUxZjY5Zjc3Y2FkZThkMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3P2hW72f8Ib3GcBS2xEiBr95UQP_JG3FAnw5_jeq6HU'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MTZmOTllYjY3YzVmYTg3ZmUxOWM2NWM1ODQ3Yzg5YiIsIm5iZiI6MTczNDI3MTM5NC41ODksInN1YiI6IjY3NWVlMWEyNTUxZjY5Zjc3Y2FkZThkMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3P2hW72f8Ib3GcBS2xEiBr95UQP_JG3FAnw5_jeq6HU',
     }
   };
 
@@ -20,3 +20,5 @@ export const SUPPORT_LANGUAGE = [
   {identifier:"de", name:"Deutch"},
   {identifier:"es", name:"Spanish"}
 ]
+
+export const OPEN_API = process.env.REACT_APP_OPEN_API
