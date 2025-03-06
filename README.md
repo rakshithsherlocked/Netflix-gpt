@@ -32,6 +32,14 @@ Netflix GPT
 -> GPT search feature
 -> GPT search page and search bar
 -> Multi-Language Feature in our app
+-> Get Open AI API key
+-> GpT Search API call
+-> fetched gpt movie suggestions from tmdb
+-> created gptSlice added data
+-> Reused Movie List component to make movie suggetion container
+-> Memoization
+-> added .env file and to integrate it into git ignore for secrecy
+
 
 
 
